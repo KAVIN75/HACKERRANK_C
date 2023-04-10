@@ -1,6 +1,9 @@
 #include <stdio.h>
 int main()
 {
-  printf("Hello World!");
+  char n[10];
+  scanf("%s",n);
+  printf("Hello %s",n);
+
   return 0;
 }
